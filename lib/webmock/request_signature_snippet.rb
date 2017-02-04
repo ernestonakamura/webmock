@@ -54,7 +54,7 @@ module WebMock
         PP.pp(string_to_print, stream)
         stream.rewind
         stream.read
-      end
+      end.encode
     end
 
   end
